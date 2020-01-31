@@ -6,6 +6,7 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   array = []
   array << planeteer_calls.map { |call| "#{call}!" }.capitalize
+  array
 end
 
 def long_planeteer_calls# code an argument here
