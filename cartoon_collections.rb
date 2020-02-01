@@ -18,5 +18,5 @@ end
 def find_the_cheese(key)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  key.detetect {|keys| cheese_types.include(keys)}
+  key.detect {|keys| cheese_types.include(keys)}
 end
